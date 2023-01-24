@@ -3,9 +3,9 @@ pipeline {
    agent any;
 
     stages {
-        stage('Hello from main branch') {
+        stage('Hello from dev branch') {
             steps {
-                sh 'echo "hello from acha !!"'
+                sh 'echo "hello from dev acha !!"'
             }
         }
     }
