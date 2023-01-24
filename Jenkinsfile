@@ -3,7 +3,7 @@ pipeline {
    agent any;
 
     stages {
-        stage('this is a new dev from my mainbranch') {
+        stage('testing job') {
             steps {
                 sh 'echo "hello from erankline-acha !!"'
                 sh 'date'
