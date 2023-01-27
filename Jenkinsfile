@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Hello from dev branch') {
             steps {
-                sh 'echo "hello from dev acha !!"'
+                sh 'echo "hello from dev acha updated!!"'
             }
         }
     }
